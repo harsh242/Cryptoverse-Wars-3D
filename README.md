@@ -1,5 +1,5 @@
 ### To get jsx of your 3D Model's GLTF File 
-Run this on your command linw and put the 3D model in the public folder
+Run this on your command linw and put the 3D model in the public folder .\
 `npx @react-three/gltfjsx public/[modelname.glb] [Filename.js]`
 
 # Getting Started with Create React App
