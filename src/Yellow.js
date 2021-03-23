@@ -5,7 +5,8 @@ import { Html, useGLTFLoader } from "drei";
 
 export default function Yellow(props) {
   const group = useRef();
-  const { nodes, materials, animations } = useGLTFLoader("/yellow.glb");
+  const {scene, nodes, materials, animations } = useGLTFLoader("/yellow.glb");
+  console.log(scene)
 
   const actions = useRef();
 
