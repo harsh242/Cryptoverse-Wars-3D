@@ -2,6 +2,11 @@
 Run this on your command linw and put the 3D model in the public folder .\
 `npx @react-three/gltfjsx public/[modelname.glb] [Filename.js]`
 
+### To compress GLTF/GLB File
+`npx gltf-pipeline -i original.glb -d --draco.compressionLevel 10 -o compressed.glb` \
+[Git Repo](https://github.com/CesiumGS/gltf-pipeline)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
